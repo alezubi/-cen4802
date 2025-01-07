@@ -1,6 +1,11 @@
 public class Main {
 
-    // Recursive method to calculate the nth term in the Fibonacci sequence
+    /**
+     * Calculates the nth term in the Fibonacci sequence.
+     *
+     * @param n the term of the Fibonacci sequence to calculate
+     * @return the nth term in the Fibonacci sequence
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
